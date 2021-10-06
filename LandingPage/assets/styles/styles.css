@@ -182,3 +182,67 @@ section.app div.container img {
     max-width: 300px;
     display: block;
 }
+
+section.app div.container div.form {
+    max-width: 485px;
+}
+
+section.app div.container div.form h1 {
+    font-size: 2.5rem;
+}
+
+section.app div.container div.form small {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin: 20px 0px;
+}
+
+/* radio button styles */
+
+
+/* ------- */
+
+section.app div.input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+section.app div.input input{
+    flex-grow: 70;
+    background-color: bisque;
+    border: 1px solid #CFCFCF;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 100%;
+    margin: 0px 10px 0px 0px;
+}
+
+section.app div.input button {
+    background-color: brown;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+section.app div.form div.download {
+    margin: 20px 0px;
+    font-weight: 100;
+    color: grey;
+}
+
+section.app div.form div.download div{
+    margin: 5px;
+}
+
+section.app div.form div.download div img {
+    max-width: 150px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
